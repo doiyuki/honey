@@ -1,0 +1,8 @@
+<div class="fullimg">
+  <% @images.each do |image| %>
+  <img src="<%= asset_path image.object_name %>" alt="" />
+  <% end %>
+</div>
+<div class="soundcloud">
+  <%= @soundcloud_html %>
+</div>

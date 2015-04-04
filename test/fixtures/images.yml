@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  object_name: MyString
+  done: false
+  stream_id: 
+
+two:
+  object_name: MyString
+  done: false
+  stream_id: 

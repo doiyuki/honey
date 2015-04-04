@@ -1,0 +1,24 @@
+Writing PID to /Users/yukidoi/Projects/honey/sources/honey/tmp/pids/websocket_rails.pid
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3001, CTRL+C to stop
+Exiting!
+/Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis/client.rb:331:in `rescue in establish_connection': Error connecting to Redis on 127.0.0.1:6379 (Errno::ECONNREFUSED) (Redis::CannotConnectError)
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis/client.rb:317:in `establish_connection'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis/client.rb:94:in `block in connect'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis/client.rb:279:in `with_reconnect'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis/client.rb:93:in `connect'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis/client.rb:350:in `ensure_connected'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis/client.rb:207:in `block in process'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis/client.rb:292:in `logging'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis/client.rb:206:in `process'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis/client.rb:112:in `call'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis.rb:1310:in `block in sismember'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis.rb:37:in `block in synchronize'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis.rb:37:in `synchronize'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/redis-3.2.1/lib/redis.rb:1309:in `sismember'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/websocket-rails-0.7.0/lib/websocket_rails/synchronization.rb:132:in `generate_server_token'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/websocket-rails-0.7.0/lib/websocket_rails/synchronization.rb:73:in `synchronize!'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/websocket-rails-0.7.0/lib/websocket_rails/synchronization.rb:29:in `synchronize!'
+	from /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/websocket-rails-0.7.0/lib/websocket_rails/connection_manager.rb:37:in `block (2 levels) in initialize'
