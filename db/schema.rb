@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150404014239) do
+ActiveRecord::Schema.define(version: 20150405113610) do
 
   create_table "images", force: :cascade do |t|
     t.string   "object_name"
@@ -22,6 +22,13 @@ ActiveRecord::Schema.define(version: 20150404014239) do
   end
 
   add_index "images", ["stream_id"], name: "index_images_on_stream_id"
+
+  create_table "secrets", force: :cascade do |t|
+    t.string   "name"
+    t.string   "content"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "sounds", force: :cascade do |t|
     t.boolean  "done",           default: false
