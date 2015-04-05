@@ -73,6 +73,7 @@ group :production do
   # Database
   gem 'pg'
 
-  # To attach Ruby4 to Heroku
+  # To attach Ruby to Heroku
+  # We get the same reult of "config.serve_static_assets = true" by this gem.
   gem 'rails_12factor'
 end
