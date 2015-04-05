@@ -12,11 +12,11 @@ body {
 // Font setting
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-7c9wav');
-	src:url('fonts/icomoon.eot?#iefix-7c9wav') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-7c9wav') format('woff'),
-		url('fonts/icomoon.ttf?-7c9wav') format('truetype'),
-		url('fonts/icomoon.svg?-7c9wav#icomoon') format('svg');
+	src:url('/fonts/icomoon.eot?-7c9wav');
+	src:url('/fonts/icomoon.eot?#iefix-7c9wav') format('embedded-opentype'),
+		url('/fonts/icomoon.woff?-7c9wav') format('woff'),
+		url('/fonts/icomoon.ttf?-7c9wav') format('truetype'),
+		url('/fonts/icomoon.svg?-7c9wav#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
