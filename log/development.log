@@ -9692,3 +9692,498 @@ Started GET "/assets/sounds-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 
 
 
 Started GET "/assets/streams-db67865b47b1ce11b4bdba61a294ce83.js?body=1" for ::1 at 2015-04-05 22:15:42 +0900
+
+
+Started GET "/" for ::1 at 2015-04-06 00:41:53 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "	src:": expected "{", was "url('<%= asset_..."
+  (in /Users/yukidoi/Projects/honey/sources/honey/app/assets/stylesheets/splashes.scss:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Honey</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= include_gon %>
+    7:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:   <%= csrf_meta_tags %>
+  app/assets/stylesheets/splashes.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___454889814988969584_70115204235320'
+
+
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (79.8ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (68.8ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (172.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 00:41:53 +0900
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "	src:": expected "{", was "url('<%= asset_..."
+  (in /Users/yukidoi/Projects/honey/sources/honey/app/assets/stylesheets/splashes.scss:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Honey</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= include_gon %>
+    7:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:   <%= csrf_meta_tags %>
+  app/assets/stylesheets/splashes.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___454889814988969584_70115204235320'
+
+
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (77.2ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (60.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (129.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 00:42:40 +0900
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "	src:": expected "{", was "url(<%= asset_p..."
+  (in /Users/yukidoi/Projects/honey/sources/honey/app/assets/stylesheets/splashes.scss:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Honey</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= include_gon %>
+    7:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:   <%= csrf_meta_tags %>
+  app/assets/stylesheets/splashes.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___454889814988969584_70115204235320'
+
+
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (62.1ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (57.5ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (121.1ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 00:45:19 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "	src:": expected "{", was "url('<%= asset_..."
+  (in /Users/yukidoi/Projects/honey/sources/honey/app/assets/stylesheets/splashes.scss:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Honey</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= include_gon %>
+    7:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:   <%= csrf_meta_tags %>
+  app/assets/stylesheets/splashes.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___993277033058597973_70268298840460'
+
+
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.7ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (49.9ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (114.4ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 00:46:45 +0900
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "	src:": expected "{", was "url('<%= asset_..."
+  (in /Users/yukidoi/Projects/honey/sources/honey/app/assets/stylesheets/splashes.scss:15)):
+    2: <html>
+    3: <head>
+    4:   <title>Honey</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= include_gon %>
+    7:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:   <%= csrf_meta_tags %>
+  app/assets/stylesheets/splashes.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___993277033058597973_70268298840460'
+
+
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (65.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (50.1ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (114.9ms)
+
+
+Started GET "/" for ::1 at 2015-04-06 00:48:05 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 166ms (Views: 157.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/sounds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/splashes-b372e0799d80d4b248962377c61033c4.css?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/streams-761e38191772db936d3e8632b61a3400.css?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/_initial-6014792f467f762d5df7639079ee7e27.js?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/underscore.string-79785840a26fc3cda6cf48639f6e111b.js?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/images-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/sounds-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/splashes-f1318318e58376c5a1ac551c417d9da3.js?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/assets/streams-db67865b47b1ce11b4bdba61a294ce83.js?body=1" for ::1 at 2015-04-06 00:48:05 +0900
+
+
+Started GET "/streams" for ::1 at 2015-04-06 00:48:09 +0900
+Processing by StreamsController#index as HTML
+  [1m[35mStream Load (0.5ms)[0m  SELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1
+  [1m[36mSound Load (0.8ms)[0m  [1mSELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1[0m  [["stream_id", 1]]
+  [1m[35mImage Load (0.8ms)[0m  SELECT "images"."object_name" FROM "images" WHERE "images"."stream_id" = ?  [["stream_id", 1]]
+  Rendered streams/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 994ms (Views: 86.1ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/streams" for ::1 at 2015-04-06 00:48:10 +0900
+Processing by StreamsController#index as HTML
+  [1m[36mStream Load (0.2ms)[0m  [1mSELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1[0m
+  [1m[35mSound Load (0.1ms)[0m  SELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1  [["stream_id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images"."object_name" FROM "images" WHERE "images"."stream_id" = ?[0m  [["stream_id", 1]]
+  Rendered streams/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 894ms (Views: 69.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/sounds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/streams-761e38191772db936d3e8632b61a3400.css?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/splashes-b372e0799d80d4b248962377c61033c4.css?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/underscore.string-79785840a26fc3cda6cf48639f6e111b.js?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/_initial-6014792f467f762d5df7639079ee7e27.js?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/images-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/sounds-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/streams-db67865b47b1ce11b4bdba61a294ce83.js?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/assets/splashes-f1318318e58376c5a1ac551c417d9da3.js?body=1" for ::1 at 2015-04-06 00:48:11 +0900
+
+
+Started GET "/streams" for ::1 at 2015-04-06 00:48:18 +0900
+Processing by StreamsController#index as HTML
+  [1m[35mStream Load (0.3ms)[0m  SELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1
+  [1m[36mSound Load (0.2ms)[0m  [1mSELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1[0m  [["stream_id", 1]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images"."object_name" FROM "images" WHERE "images"."stream_id" = ?  [["stream_id", 1]]
+  Rendered streams/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1102ms (Views: 83.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/streams-761e38191772db936d3e8632b61a3400.css?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/sounds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/splashes-b372e0799d80d4b248962377c61033c4.css?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/underscore.string-79785840a26fc3cda6cf48639f6e111b.js?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/_initial-6014792f467f762d5df7639079ee7e27.js?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/images-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/sounds-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/splashes-f1318318e58376c5a1ac551c417d9da3.js?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/assets/streams-db67865b47b1ce11b4bdba61a294ce83.js?body=1" for ::1 at 2015-04-06 00:48:19 +0900
+
+
+Started GET "/" for ::1 at 2015-04-06 00:54:04 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 126ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/streams-761e38191772db936d3e8632b61a3400.css?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/splashes-b372e0799d80d4b248962377c61033c4.css?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/sounds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/underscore.string-79785840a26fc3cda6cf48639f6e111b.js?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/images-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/sounds-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/_initial-6014792f467f762d5df7639079ee7e27.js?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/splashes-f1318318e58376c5a1ac551c417d9da3.js?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/assets/streams-db67865b47b1ce11b4bdba61a294ce83.js?body=1" for ::1 at 2015-04-06 00:54:05 +0900
+
+
+Started GET "/streams" for ::1 at 2015-04-06 00:54:08 +0900
+Processing by StreamsController#index as HTML
+  [1m[35mStream Load (0.2ms)[0m  SELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1
+  [1m[36mSound Load (0.2ms)[0m  [1mSELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1[0m  [["stream_id", 1]]
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images"."object_name" FROM "images" WHERE "images"."stream_id" = ?  [["stream_id", 1]]
+  Rendered streams/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 991ms (Views: 94.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/streams" for ::1 at 2015-04-06 00:54:09 +0900
+Processing by StreamsController#index as HTML
+  [1m[36mStream Load (0.2ms)[0m  [1mSELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1[0m
+  [1m[35mSound Load (0.1ms)[0m  SELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1  [["stream_id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images"."object_name" FROM "images" WHERE "images"."stream_id" = ?[0m  [["stream_id", 1]]
+  Rendered streams/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 797ms (Views: 76.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/sounds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/streams-761e38191772db936d3e8632b61a3400.css?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/splashes-b372e0799d80d4b248962377c61033c4.css?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/underscore.string-79785840a26fc3cda6cf48639f6e111b.js?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/_initial-6014792f467f762d5df7639079ee7e27.js?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/images-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/sounds-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/splashes-f1318318e58376c5a1ac551c417d9da3.js?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/streams-db67865b47b1ce11b4bdba61a294ce83.js?body=1" for ::1 at 2015-04-06 00:54:10 +0900
+
+
+Started GET "/assets/streams-761e38191772db936d3e8632b61a3400.css?body=1" for ::1 at 2015-04-06 00:54:17 +0900
+
+
+Started GET "/assets/splashes-b372e0799d80d4b248962377c61033c4.css?body=1" for ::1 at 2015-04-06 00:54:17 +0900
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:54:17 +0900
+
+
+Started GET "/assets/sounds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:54:17 +0900
+
+
+Started GET "/streams" for ::1 at 2015-04-06 00:55:18 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StreamsController#index as HTML
+  [1m[35mStream Load (0.2ms)[0m  SELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1
+  [1m[36mSound Load (0.2ms)[0m  [1mSELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1[0m  [["stream_id", 1]]
+  [1m[35mImage Load (0.4ms)[0m  SELECT "images"."object_name" FROM "images" WHERE "images"."stream_id" = ?  [["stream_id", 1]]
+  Rendered streams/index.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 1177ms (Views: 224.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/sounds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/splashes-b372e0799d80d4b248962377c61033c4.css?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/streams-761e38191772db936d3e8632b61a3400.css?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/underscore.string-79785840a26fc3cda6cf48639f6e111b.js?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/_initial-6014792f467f762d5df7639079ee7e27.js?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/images-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/sounds-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/splashes-f1318318e58376c5a1ac551c417d9da3.js?body=1" for ::1 at 2015-04-06 00:55:20 +0900
+
+
+Started GET "/assets/streams-db67865b47b1ce11b4bdba61a294ce83.js?body=1" for ::1 at 2015-04-06 00:55:20 +0900
