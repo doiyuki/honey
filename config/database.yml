@@ -21,7 +21,10 @@ test:
   database: db/test.sqlite3
 
 production:
+<<<<<<< HEAD
   <<: *default
+=======
+>>>>>>> for_revert
   encoding: utf8
   adapter: postgresql
   port: 5432
