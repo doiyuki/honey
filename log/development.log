@@ -15605,3 +15605,85 @@ Started GET "/assets/splashes-f1318318e58376c5a1ac551c417d9da3.js?body=1" for ::
 
 
 Started GET "/assets/streams-db67865b47b1ce11b4bdba61a294ce83.js?body=1" for ::1 at 2015-04-06 06:37:35 +0900
+
+
+Started GET "/" for ::1 at 2015-04-06 17:01:33 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (43.5ms)
+Completed 200 OK in 2042ms (Views: 2029.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/sounds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/streams-3cd88f89a16dffe60def83b587feabe5.css?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/application-1801dba265b77e34ea0d74518c3745c4.css?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/splashes-d8f475bd55c174350c0038e1dce6944e.css?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/underscore.string-79785840a26fc3cda6cf48639f6e111b.js?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/_initial-6014792f467f762d5df7639079ee7e27.js?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/images-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/sounds-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/splashes-f1318318e58376c5a1ac551c417d9da3.js?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/streams-db67865b47b1ce11b4bdba61a294ce83.js?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/application-87ea61e6d54ea3ccca4effd33e0b6217.js?body=1" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/forest-autumn-ec84b921bceeaa5ebb9b2a4c8577de50.jpg" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/assets/icomoon-025158d929eb6c5294258e852505f675.woff?-7c9wav" for ::1 at 2015-04-06 17:01:36 +0900
+
+
+Started GET "/streams" for ::1 at 2015-04-06 17:01:39 +0900
+Processing by StreamsController#index as HTML
+  [1m[35mStream Load (0.2ms)[0m  SELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1
+  [1m[36mSound Load (0.8ms)[0m  [1mSELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1[0m  [["stream_id", 1]]
+  [1m[35mImage Load (0.6ms)[0m  SELECT "images"."object_name" FROM "images" WHERE "images"."stream_id" = ?  [["stream_id", 1]]
+  Rendered streams/index.html.erb within layouts/application (148.1ms)
+Completed 200 OK in 3098ms (Views: 249.0ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/car-rain-d71c64f8f348bc2d7e46d3ac5ba0d73a.jpg" for ::1 at 2015-04-06 17:01:42 +0900
+
+
+Started GET "/assets/crossroad-5f22942db9ab5fd6ded7bfd54b6c2026.jpg" for ::1 at 2015-04-06 17:01:42 +0900
+
+
+Started GET "/assets/forest-142b0f20d30f17a2e0e294bba6943ed1.jpg" for ::1 at 2015-04-06 17:01:42 +0900
+
+
+Started GET "/assets/forest-winter-4b11d7e2c46738b0b48fc957b50fbb8c.jpg" for ::1 at 2015-04-06 17:01:42 +0900

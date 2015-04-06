@@ -1,28 +1,43 @@
+honey
+
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+honey is web-app plays music from soundcloud and presents slideshow of beautiful pictures.
 
-* Ruby version
+## Demo
 
-* System dependencies
+https://soundhoney.herokuapp.com/
 
-* Configuration
+## Install
 
-* Database creation
+1. Checkout master repository.
 
-* Database initialization
+<tt>git checkout https://github.com/doiyuki/honey</tt>
 
-* How to run the test suite
+2. Setup for migration.
 
-* Services (job queues, cache servers, search engines, etc.)
+<tt>rake db:migrate</tt>
+<tt>rake db:seed</tt>
 
-* Deployment instructions
+3. Setup for environment.
 
-* ...
+<tt>export SOUNDCLOUD_CLIENT_ID=[Write your soundcloud client id]</tt>
 
+4. Run.
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+<tt>rails s</tt>
+Access to http://localhost:3000
+
+** Contribution
+
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
+
+** Licence
+
+Apache License Version 2.0
