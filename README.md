@@ -30,7 +30,7 @@ https://soundhoney.herokuapp.com/
 <tt>rails s</tt>
 Access to http://localhost:3000
 
-** Contribution
+## Contribution
 
 1. Fork it
 2. Create your feature branch (git checkout -b my-new-feature)
@@ -38,6 +38,6 @@ Access to http://localhost:3000
 4. Push to the branch (git push origin my-new-feature)
 5. Create new Pull Request
 
-** Licence
+## Licence
 
 Apache License Version 2.0
