@@ -15687,3 +15687,473 @@ Started GET "/assets/forest-142b0f20d30f17a2e0e294bba6943ed1.jpg" for ::1 at 201
 
 
 Started GET "/assets/forest-winter-4b11d7e2c46738b0b48fc957b50fbb8c.jpg" for ::1 at 2015-04-06 17:01:42 +0900
+
+
+Started GET "/" for ::1 at 2015-04-28 12:58:54 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 2063ms (Views: 2051.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-04-28 12:58:56 +0900
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 96ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/splashes-d8f475bd55c174350c0038e1dce6944e.css?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/application-1801dba265b77e34ea0d74518c3745c4.css?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/images-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/sounds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/streams-3cd88f89a16dffe60def83b587feabe5.css?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/images-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/sounds-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/splashes-f1318318e58376c5a1ac551c417d9da3.js?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/streams-db67865b47b1ce11b4bdba61a294ce83.js?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/application-87ea61e6d54ea3ccca4effd33e0b6217.js?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/_initial-6014792f467f762d5df7639079ee7e27.js?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/underscore.string-79785840a26fc3cda6cf48639f6e111b.js?body=1" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/forest-autumn-ec84b921bceeaa5ebb9b2a4c8577de50.jpg" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/assets/icomoon-025158d929eb6c5294258e852505f675.woff?-7c9wav" for ::1 at 2015-04-28 12:58:57 +0900
+
+
+Started GET "/streams" for ::1 at 2015-04-28 12:59:00 +0900
+Processing by StreamsController#index as HTML
+  [1m[35mStream Load (0.2ms)[0m  SELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1
+  [1m[36mSound Load (0.2ms)[0m  [1mSELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1[0m  [["stream_id", 1]]
+  [1m[35mImage Load (0.6ms)[0m  SELECT "images"."object_name" FROM "images" WHERE "images"."stream_id" = ?  [["stream_id", 1]]
+  Rendered streams/index.html.erb within layouts/application (144.2ms)
+Completed 200 OK in 1748ms (Views: 277.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 12:59:02 +0900
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for ::1 at 2015-04-28 12:59:02 +0900
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-28 12:59:02 +0900
+
+
+Started GET "/assets/_initial-6014792f467f762d5df7639079ee7e27.js?body=1" for ::1 at 2015-04-28 12:59:02 +0900
+
+
+Started GET "/assets/underscore.string-79785840a26fc3cda6cf48639f6e111b.js?body=1" for ::1 at 2015-04-28 12:59:02 +0900
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 12:59:02 +0900
+
+
+Started GET "/assets/car-rain-14c6a76d41084395bdcec41ee0afe55a.jpg" for ::1 at 2015-04-28 12:59:02 +0900
+
+
+Started GET "/assets/crossroad-842ecb6ad4f469a6a7d5754f55827aaf.jpg" for ::1 at 2015-04-28 12:59:02 +0900
+
+
+Started GET "/assets/forest-winter-3b8bc879072aac7d1f02840678a17762.jpg" for ::1 at 2015-04-28 12:59:02 +0900
+
+
+Started GET "/assets/forest-6a909ddd349a3b7dcd503357d07903e4.jpg" for ::1 at 2015-04-28 12:59:02 +0900
+
+
+Started GET "/" for ::1 at 2015-04-28 13:03:09 +0900
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:03:09 +0900
+
+
+Started GET "/assets/underscore.string-79785840a26fc3cda6cf48639f6e111b.js?body=1" for ::1 at 2015-04-28 13:03:09 +0900
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for ::1 at 2015-04-28 13:03:09 +0900
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:03:09 +0900
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-28 13:03:09 +0900
+
+
+Started GET "/assets/_initial-6014792f467f762d5df7639079ee7e27.js?body=1" for ::1 at 2015-04-28 13:03:09 +0900
+
+
+Started GET "/streams" for ::1 at 2015-04-28 13:03:12 +0900
+Processing by StreamsController#index as HTML
+  [1m[36mStream Load (0.4ms)[0m  [1mSELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1[0m
+  [1m[35mSound Load (0.3ms)[0m  SELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1  [["stream_id", 1]]
+Completed 500 Internal Server Error in 675ms (ActiveRecord: 0.7ms)
+
+SoundCloud::ResponseError (HTTP status: 404 Not Found):
+  app/controllers/streams_controller.rb:14:in `index'
+
+
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.6ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (65.9ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (203.3ms)
+  [1m[36mStream Load (0.4ms)[0m  [1mSELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1[0m
+  [1m[35mSound Load (1.2ms)[0m  SELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1  [["stream_id", 1]]
+
+
+Started GET "/" for ::1 at 2015-04-28 13:12:42 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (129.1ms)
+Completed 200 OK in 2154ms (Views: 2143.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-04-28 13:12:45 +0900
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 98ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/sounds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/splashes.self-b66cd542b42e8f2771f59ab33d3b0ff60e6085e8fa31059efbfebae7e5bd0451.css?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/streams.self-02f43fa351ba8c2cf6bc684fd33537687ac67077f077c9a78c674aa80b65fd51.css?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/underscore.string.self-c8c08384ebfaf6902b0499cb07d7d4a5685259f1c63ee65bd4ca2f516d6a0c5e.js?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/_initial.self-8f1b637ecffc30d8c09c9477049c8ebcf67b22682f9b67582eb3293a8f416968.js?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/sounds.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/splashes.self-2569aecba6e806fc6d9536e9f200d1e2fbaafb83f5a723f5007b535211252ff2.js?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/streams.self-6b6f5a24a2912d002cebe46b9029c9a81960ea275ea3117f62c9a31f8497f7fe.js?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/application.self-644a44fb9d56ca6eab9c3a1e6db985fa7f3013c2a96b60dda5bbe61a1461ea93.js?body=1" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/forest-autumn-374bb234cd761524382cdb18e838b094d1a5965d1821a7578f9aea72a96828ee.jpg" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/assets/icomoon-7049b662c0c9c4c43209b12294af6a89f87a191003de3616fbb3d3b38e42831e.woff?-7c9wav" for ::1 at 2015-04-28 13:12:45 +0900
+
+
+Started GET "/streams" for ::1 at 2015-04-28 13:12:48 +0900
+Processing by StreamsController#index as HTML
+  [1m[35mStream Load (0.5ms)[0m  SELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1
+  [1m[36mSound Load (0.8ms)[0m  [1mSELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1[0m  [["stream_id", 1]]
+Completed 500 Internal Server Error in 975ms (ActiveRecord: 2.0ms)
+
+SoundCloud::ResponseError (HTTP status: 404 Not Found):
+  app/controllers/streams_controller.rb:14:in `index'
+
+
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.9ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (65.0ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (143.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_images_on_stream_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_images_on_stream_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_sounds_on_stream_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_sounds_on_stream_id' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["object_name", "car-rain.jpg"], ["created_at", "2015-04-28 04:24:48.664483"], ["updated_at", "2015-04-28 04:24:48.664483"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)  [["object_name", "crossroad.jpg"], ["created_at", "2015-04-28 04:24:48.670910"], ["updated_at", "2015-04-28 04:24:48.670910"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["object_name", "forest-autumn.jpg"], ["created_at", "2015-04-28 04:24:48.673197"], ["updated_at", "2015-04-28 04:24:48.673197"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)  [["object_name", "forest-winter.jpg"], ["created_at", "2015-04-28 04:24:48.675478"], ["updated_at", "2015-04-28 04:24:48.675478"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["object_name", "forest.jpg"], ["created_at", "2015-04-28 04:24:48.677635"], ["updated_at", "2015-04-28 04:24:48.677635"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "sounds" ("soundcloud_url", "created_at", "updated_at") VALUES (?, ?, ?)  [["soundcloud_url", "https://soundcloud.com/childish-gambino/sober-unmixed"], ["created_at", "2015-04-28 04:24:48.684953"], ["updated_at", "2015-04-28 04:24:48.684953"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "streams" ("genre", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["genre", "Hip Hop"], ["created_at", "2015-04-28 04:24:48.714628"], ["updated_at", "2015-04-28 04:24:48.714628"]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "sounds" SET "stream_id" = ?, "updated_at" = ? WHERE "sounds"."id" = ?  [["stream_id", 3], ["updated_at", "2015-04-28 04:24:48.716596"], ["id", 4]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?[0m  [["stream_id", 3], ["updated_at", "2015-04-28 04:24:48.734019"], ["id", 8]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?  [["stream_id", 3], ["updated_at", "2015-04-28 04:24:48.735016"], ["id", 9]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?[0m  [["stream_id", 3], ["updated_at", "2015-04-28 04:24:48.736071"], ["id", 10]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?  [["stream_id", 3], ["updated_at", "2015-04-28 04:24:48.736910"], ["id", 11]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?[0m  [["stream_id", 3], ["updated_at", "2015-04-28 04:24:48.737682"], ["id", 12]]
+  [1m[35m (1.3ms)[0m  commit transaction
+
+
+Started GET "/" for ::1 at 2015-04-28 13:24:58 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (135.3ms)
+Completed 200 OK in 283ms (Views: 273.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/streams" for ::1 at 2015-04-28 13:25:01 +0900
+Processing by StreamsController#index as HTML
+  [1m[35mStream Load (0.1ms)[0m  SELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1
+  [1m[36mSound Load (0.2ms)[0m  [1mSELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1[0m  [["stream_id", 1]]
+Completed 500 Internal Server Error in 734ms (ActiveRecord: 1.2ms)
+
+SoundCloud::ResponseError (HTTP status: 404 Not Found):
+  app/controllers/streams_controller.rb:14:in `index'
+
+
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (66.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/yukidoi/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (147.6ms)
+  [1m[36mStream Load (0.1ms)[0m  [1mSELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1[0m
+  [1m[35mSound Load (0.2ms)[0m  SELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1  [["stream_id", 1]]
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "images" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "object_name" varchar, "done" boolean DEFAULT 'f', "stream_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.6ms)[0m  select sqlite_version(*)
+  [1m[36m (1.2ms)[0m  [1mCREATE  INDEX "index_images_on_stream_id" ON "images" ("stream_id")[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "secrets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "content" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "sounds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "done" boolean DEFAULT 'f', "stream_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "soundcloud_url" varchar) [0m
+  [1m[35m (0.8ms)[0m  CREATE  INDEX "index_sounds_on_stream_id" ON "sounds" ("stream_id")
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "splashes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.9ms)[0m  CREATE TABLE "streams" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "genre" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150405113610')
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150326143231')[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150326144328')
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150326145347')[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150404014110')
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150404014239')[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "images" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "object_name" varchar, "done" boolean DEFAULT 'f', "stream_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.7ms)[0m  CREATE  INDEX "index_images_on_stream_id" ON "images" ("stream_id")
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "secrets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "content" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "sounds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "done" boolean DEFAULT 'f', "stream_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "soundcloud_url" varchar) 
+  [1m[36m (1.3ms)[0m  [1mCREATE  INDEX "index_sounds_on_stream_id" ON "sounds" ("stream_id")[0m
+  [1m[35m (1.3ms)[0m  CREATE TABLE "splashes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "streams" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "genre" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150405113610')[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150326143231')
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150326144328')[0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150326145347')
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150404014110')[0m
+  [1m[35m (0.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150404014239')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["object_name", "car-rain.jpg"], ["created_at", "2015-04-28 04:26:44.030589"], ["updated_at", "2015-04-28 04:26:44.030589"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)  [["object_name", "crossroad.jpg"], ["created_at", "2015-04-28 04:26:44.034211"], ["updated_at", "2015-04-28 04:26:44.034211"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["object_name", "forest-autumn.jpg"], ["created_at", "2015-04-28 04:26:44.036921"], ["updated_at", "2015-04-28 04:26:44.036921"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)  [["object_name", "forest-winter.jpg"], ["created_at", "2015-04-28 04:26:44.039136"], ["updated_at", "2015-04-28 04:26:44.039136"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["object_name", "forest.jpg"], ["created_at", "2015-04-28 04:26:44.041314"], ["updated_at", "2015-04-28 04:26:44.041314"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sounds" ("soundcloud_url", "created_at", "updated_at") VALUES (?, ?, ?)  [["soundcloud_url", "https://soundcloud.com/childish-gambino/sober-unmixed"], ["created_at", "2015-04-28 04:26:44.051454"], ["updated_at", "2015-04-28 04:26:44.051454"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "streams" ("genre", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["genre", "Hip Hop"], ["created_at", "2015-04-28 04:26:44.074276"], ["updated_at", "2015-04-28 04:26:44.074276"]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "sounds" SET "stream_id" = ?, "updated_at" = ? WHERE "sounds"."id" = ?  [["stream_id", 1], ["updated_at", "2015-04-28 04:26:44.075628"], ["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?[0m  [["stream_id", 1], ["updated_at", "2015-04-28 04:26:44.080037"], ["id", 1]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?  [["stream_id", 1], ["updated_at", "2015-04-28 04:26:44.081188"], ["id", 2]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?[0m  [["stream_id", 1], ["updated_at", "2015-04-28 04:26:44.082296"], ["id", 3]]
+  [1m[35mSQL (0.0ms)[0m  UPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?  [["stream_id", 1], ["updated_at", "2015-04-28 04:26:44.083107"], ["id", 4]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?[0m  [["stream_id", 1], ["updated_at", "2015-04-28 04:26:44.083886"], ["id", 5]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_images_on_stream_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_images_on_stream_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_sounds_on_stream_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_sounds_on_stream_id' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["object_name", "car-rain.jpg"], ["created_at", "2015-04-28 04:26:55.365100"], ["updated_at", "2015-04-28 04:26:55.365100"]]
+  [1m[35m (8.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)  [["object_name", "crossroad.jpg"], ["created_at", "2015-04-28 04:26:55.377219"], ["updated_at", "2015-04-28 04:26:55.377219"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["object_name", "forest-autumn.jpg"], ["created_at", "2015-04-28 04:26:55.379877"], ["updated_at", "2015-04-28 04:26:55.379877"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)  [["object_name", "forest-winter.jpg"], ["created_at", "2015-04-28 04:26:55.382867"], ["updated_at", "2015-04-28 04:26:55.382867"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "images" ("object_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["object_name", "forest.jpg"], ["created_at", "2015-04-28 04:26:55.386169"], ["updated_at", "2015-04-28 04:26:55.386169"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sounds" ("soundcloud_url", "created_at", "updated_at") VALUES (?, ?, ?)  [["soundcloud_url", "https://soundcloud.com/childish-gambino/sober-unmixed"], ["created_at", "2015-04-28 04:26:55.393177"], ["updated_at", "2015-04-28 04:26:55.393177"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "streams" ("genre", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["genre", "Hip Hop"], ["created_at", "2015-04-28 04:26:55.415092"], ["updated_at", "2015-04-28 04:26:55.415092"]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "sounds" SET "stream_id" = ?, "updated_at" = ? WHERE "sounds"."id" = ?  [["stream_id", 2], ["updated_at", "2015-04-28 04:26:55.416347"], ["id", 2]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?[0m  [["stream_id", 2], ["updated_at", "2015-04-28 04:26:55.420660"], ["id", 6]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?  [["stream_id", 2], ["updated_at", "2015-04-28 04:26:55.421592"], ["id", 7]]
+  [1m[36mSQL (0.0ms)[0m  [1mUPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?[0m  [["stream_id", 2], ["updated_at", "2015-04-28 04:26:55.422459"], ["id", 8]]
+  [1m[35mSQL (0.0ms)[0m  UPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?  [["stream_id", 2], ["updated_at", "2015-04-28 04:26:55.423136"], ["id", 9]]
+  [1m[36mSQL (0.0ms)[0m  [1mUPDATE "images" SET "stream_id" = ?, "updated_at" = ? WHERE "images"."id" = ?[0m  [["stream_id", 2], ["updated_at", "2015-04-28 04:26:55.423788"], ["id", 10]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mStream Load (0.1ms)[0m  [1mSELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1[0m
+  [1m[35mSound Load (0.2ms)[0m  SELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1  [["stream_id", 1]]
+
+
+Started GET "/" for ::1 at 2015-04-28 13:27:30 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (148.8ms)
+Completed 200 OK in 254ms (Views: 244.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-04-28 13:27:30 +0900
+Processing by SplashesController#index as HTML
+  Rendered splashes/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 88ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/streams" for ::1 at 2015-04-28 13:27:34 +0900
+Processing by StreamsController#index as HTML
+  [1m[35mStream Load (0.1ms)[0m  SELECT  "streams".* FROM "streams"  ORDER BY "streams"."id" ASC LIMIT 1
+  [1m[36mSound Load (0.7ms)[0m  [1mSELECT  "sounds".* FROM "sounds" WHERE "sounds"."stream_id" = ?  ORDER BY "sounds"."id" ASC LIMIT 1[0m  [["stream_id", 1]]
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images"."object_name" FROM "images" WHERE "images"."stream_id" = ?  [["stream_id", 1]]
+  Rendered streams/index.html.erb within layouts/application (69.7ms)
+Completed 200 OK in 906ms (Views: 206.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/car-rain-8a2e5436f7c20fe88e5aa9f503956a9289c2ddabf2f7b1af0179c1b34fdfe256.jpg" for ::1 at 2015-04-28 13:27:35 +0900
+
+
+Started GET "/assets/crossroad-9f415236e563b33369c2ec663c5ec6a706d9e3a2b297947090e8eb5a28343f23.jpg" for ::1 at 2015-04-28 13:27:35 +0900
+
+
+Started GET "/assets/forest-winter-19cde9cf01955f216d332c11112203ed2aa0bcd670281d952f953a3696699338.jpg" for ::1 at 2015-04-28 13:27:35 +0900
+
+
+Started GET "/assets/forest-6db4c5e045a1f72e8483993031d1a4d479e4b37b7258b66d5e72459ca145ec4f.jpg" for ::1 at 2015-04-28 13:27:35 +0900

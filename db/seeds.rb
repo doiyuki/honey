@@ -13,7 +13,7 @@ forest_autumn = Image.create(object_name: 'forest-autumn.jpg')
 forest_winter = Image.create(object_name: 'forest-winter.jpg')
 forest = Image.create(object_name: 'forest.jpg')
 
-sound = Sound.create(soundcloud_url: 'https://soundcloud.com/soul-tarr/eliots-mix-hip-hop-smoothie-3')
+sound = Sound.create(soundcloud_url: 'https://soundcloud.com/childish-gambino/sober-unmixed')
 
 stream = Stream.create(
   genre: 'Hip Hop',
